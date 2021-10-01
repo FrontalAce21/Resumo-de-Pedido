@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-[/screenshots/projeto-em-andamento.png]
+<img src="/screenshots/projeto-em-andamento.png" alt="Screenshot"/>
 
 
 ### Links
