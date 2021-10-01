@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 main {
@@ -24,21 +24,24 @@ main {
 
 .container {    
     background: hsl(225, 100%, 98%);
-    border-radius: 15px;
+    border-radius: 25px;
+    line-height: 25px;
 }
 
 .hero {
     width: 100%;
-    border-radius: 15px 15px 0 0;
+    border-radius: 25px 25px 0 0;
 }
 
 .content {
     text-align: center;
+    font-size: 17px;
 }
 
 .content-title{
     color: hsl(223, 47%, 23%);
     padding: 40px 0 0;
+    font-size: 30px;
 }
 
 .content-discription {
@@ -46,6 +49,47 @@ main {
     width: 400px;
     margin: auto;
     padding: 20px;
+}
+
+.button {
+    width: 400px;
+    margin: auto;
+}
+
+.button-proceed {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:none;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    cursor: pointer;
+    transition: 0.5s all;
+    width: 350px;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.button-proceed:hover {
+    opacity: 50%;
+}
+
+.button-cancel {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:none;
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    transition: 0.5s all;
+    width: 350px;
+    height: 50px;
+    margin: 0 0 15px;
+}
+
+.button-cancel:hover {
+    color: hsl(223, 47%, 23%);
 }
 
 .footer {
@@ -56,4 +100,13 @@ main {
 .footer a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+    
+    body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
 }
