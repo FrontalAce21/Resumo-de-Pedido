@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="/screenshots/projeto-quase-pronto.png" alt="Screenshot"/>
+<img src="/screenshots/projeto-web-pronto.png" alt="Screenshot"/>
 
 
 ### Links
