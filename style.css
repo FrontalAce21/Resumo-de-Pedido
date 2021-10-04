@@ -51,6 +51,35 @@ main {
     padding: 20px;
 }
 
+.content-plan {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    float:left;
+    display: flex;
+    padding: 0 10px 0 50px;
+    
+}
+
+.plan-title {
+    font-weight: 900;
+    float: left;
+}
+
+.plan-price {
+    color: hsl(224, 23%, 55%);
+}
+
+.content a {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    padding: 0 0 0 30px;
+    align-items: center;
+}
+
 .button {
     width: 400px;
     margin: auto;
@@ -105,8 +134,12 @@ main {
 @media screen and (max-width: 375px) {
     
     body {
-    background-image: url(/images/pattern-background-mobile.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+        background-image: url(/images/pattern-background-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container, .content, .content-plan {
+        width: auto;
     }
 }
