@@ -29,8 +29,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
-
 ## Author
 
 - Frontend Mentor - [@Jeferson-Pimentel](https://www.frontendmentor.io/profile/FrontalAce21)
