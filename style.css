@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     background-image: url(/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 main {
@@ -131,15 +131,38 @@ main {
     text-decoration: none;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
     
+
     body {
         background-image: url(/images/pattern-background-mobile.svg);
         background-size: cover;
         background-repeat: no-repeat;
     }
 
-    .container, .content, .content-plan {
-        width: auto;
+    .container, .content-discription, .button {
+        width: 90vw;
     }
+
+    .content-title {
+        font-size: 26px;
+    }
+
+    .logo {
+        padding: 0 20px 0 20px;
+    }
+
+    .content-plan {
+        padding: 5vw;
+    }
+
+    .content a {
+        padding: 0 0 0 18px;
+        font-size: 16px;
+    }
+
+    .button-proceed, .button-cancel {
+        width: 80vw;
+    } 
+
 }
