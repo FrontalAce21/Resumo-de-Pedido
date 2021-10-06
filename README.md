@@ -2,15 +2,6 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-
 ## Overview
 
 ### The challenge
@@ -27,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solução](https://www.frontendmentor.io/solutions/order-summary-AGUcZZWMT)
+- Live Site URL: [Site](https://jefersonpimentel.github.io/Resumo-de-Pedido/)
 
 ### Built with
 
@@ -42,5 +33,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Jeferson-Pimentel](https://www.frontendmentor.io/profile/FrontalAce21)
