@@ -9,9 +9,10 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: #e0e8ff;
 }
 
 main {
@@ -135,9 +136,10 @@ main {
     
 
     body {
-        background-image: url(/images/pattern-background-mobile.svg);
-        background-size: cover;
+        background-image: url("./images/pattern-background-mobile.svg");
+        background-size: contain;
         background-repeat: no-repeat;
+        background-color: #e0e8ff;
     }
 
     .container, .content-discription, .button {
